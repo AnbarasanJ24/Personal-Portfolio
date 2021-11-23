@@ -1,11 +1,16 @@
 import './home.css';
 import React from 'react';
+import Header from '../header';
+import Content from '../content';
+import Footer from '../footer';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <main className="home">
+            <Header />
+            <Content />
+            <Footer />
+        </main>
     )
 }
 

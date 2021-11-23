@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1 1;
+    color: #6666FF;
+}
+
+.menus {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mobile-icon {
+    font-size: 2rem;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display: flex;
+}
+
+.logo {
+    width: 7.25rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width:720px) {
+    .mobile-menu {
+        display: flex;
+        margin-right: 1rem;
+    }
+
+    .web-menu {
+        display: none;
+    }
+}
