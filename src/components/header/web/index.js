@@ -1,5 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+import project from '../../../assets/project.svg';
 import skills from '../../../assets/skills.svg';
+import work from '../../../assets/work.svg';
+import contact from '../../../assets/contact.svg';
 import './web.css';
 
 const Web = () => {
@@ -7,19 +11,19 @@ const Web = () => {
         <div className="web">
             <a href="#project" className="web-options">
                 <h4>Projects</h4>
-                <img src="https://img.icons8.com/nolan/64/krita.png" />
+                <img src={project} />
             </a>
-            <a href="#skills">
+            <a href="#skills" className="web-options">
                 <h4>Skills</h4>
                 <img src={skills} />
             </a>
-            <a href="#work">
+            <a href="#work" className="web-options">
                 <h4>Work</h4>
-                <img src="https://img.icons8.com/nolan/64/krita.png" />
+                <img src={work} />
             </a>
-            <a href="#contact">
+            <a href="#contact" className="web-options">
                 <h4>Contact</h4>
-                <img src="https://img.icons8.com/nolan/64/krita.png" />
+                <img src={contact} />
             </a>
         </div>
     )

@@ -1,10 +1,10 @@
 import React from "react";
 
 
-const Mobile = () => {
+const Mobile = ({ isOpen, setIsOpen }) => {
     return (
-        <div>
-            Mobile
+        <div className="mobile">
+
         </div>
     )
 }
