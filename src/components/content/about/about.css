@@ -1,0 +1,29 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 50vh;
+}
+
+.about-me {
+    grid-column: 1 / 6;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-left: 37px;
+}
+
+.profile_image {
+    grid-column: 6/ -1;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #6666ff;
+    font-weight: 600
+}
+
+h4 {
+    font-size: 1rem;
+    color: #6666ff;
+    font-weight: 400;
+}
