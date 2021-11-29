@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import './about.css';
+import profile from '../../../assets/profile.png'
 
 const About = () => {
     return (
@@ -13,7 +15,8 @@ const About = () => {
                 </h4>
             </div>
             <div className="profile_image">
-                Image
+                <img className="vector" src={profile} alt="profile-image" />
+
             </div>
         </div>
     )

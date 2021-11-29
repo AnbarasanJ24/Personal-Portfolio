@@ -1,7 +1,7 @@
 .about {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    height: 50vh;
+    height: 60vh;
 }
 
 .about-me {
@@ -13,17 +13,24 @@
 }
 
 .profile_image {
-    grid-column: 6/ -1;
+    grid-column: 8/ -1;
+}
+
+
+.profile_image .vector {
+    height: 60vh;
 }
 
 h1 {
     font-size: 2rem;
     color: #6666ff;
-    font-weight: 600
+    font-weight: 600;
+    padding-bottom: 1rem;
 }
 
 h4 {
     font-size: 1rem;
     color: #6666ff;
     font-weight: 400;
+    line-height: 22px;
 }
