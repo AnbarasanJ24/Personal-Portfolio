@@ -3,7 +3,6 @@ import React from "react";
 import project from '../../../assets/project.svg';
 import skills from '../../../assets/skills.svg';
 import work from '../../../assets/work.svg';
-import contact from '../../../assets/contact.svg';
 import './web.css';
 
 const Web = () => {
