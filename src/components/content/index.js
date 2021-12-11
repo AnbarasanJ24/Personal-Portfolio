@@ -18,12 +18,12 @@ const Content = () => {
             <section id="skills">
                 <Skills />
             </section>
-            <section id="work">
+            {/* <section id="work">
                 <Work />
-            </section>
-            <section id="contact">
+            </section> */}
+            {/* <section id="contact">
                 <Contact />
-            </section>
+            </section> */}
         </main>
     )
 }

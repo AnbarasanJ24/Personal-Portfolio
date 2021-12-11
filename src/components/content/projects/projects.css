@@ -5,7 +5,8 @@
 }
 
 .project-dettails-title {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'MonteCarlo', cursive;
     margin-bottom: 2rem;
-    color: #273339;
+    color: #525b61;
 }

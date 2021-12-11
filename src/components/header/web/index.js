@@ -21,10 +21,10 @@ const Web = () => {
                 <h4>Work</h4>
                 <img src={work} />
             </a>
-            <a href="#contact" className="web-options">
+            {/* <a href="#contact" className="web-options">
                 <h4>Contact</h4>
                 <img src={contact} />
-            </a>
+            </a> */}
         </div>
     )
 }

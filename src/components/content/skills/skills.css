@@ -1,0 +1,37 @@
+.skill-list-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 2rem;
+}
+
+.skills-title {
+    font-size: 3rem;
+    font-family: 'MonteCarlo', cursive;
+    margin-bottom: 2rem;
+    color: #525b61;
+
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 20vh;
+}
+
+.skills-container h2 {
+    color: #6666ff;
+}
+
+
+
+
+@media only screen and (max-width:720px) {
+    .skill-list-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-list {
+        justify-content: start;
+        margin-top: 20px;
+    }
+}
