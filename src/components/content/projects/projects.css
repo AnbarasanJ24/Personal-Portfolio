@@ -1,0 +1,11 @@
+.project-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+}
+
+.project-dettails-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #273339;
+}

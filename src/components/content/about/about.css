@@ -47,6 +47,17 @@
         grid-template-columns: 1fr;
     }
 
+    .profile_image {
+        grid-column: auto;
+        display: grid;
+        place-content: center;
+
+    }
+
+    .profile_image .vector {
+        height: 30vh;
+    }
+
     h1 {
         font-size: 1rem;
     }
