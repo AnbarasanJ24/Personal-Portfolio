@@ -4,6 +4,12 @@
     height: 60vh;
 }
 
+.about span {
+    color: #525b61;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 3rem;
+}
+
 .about-me {
     grid-column: 1 / 6;
     display: grid;
@@ -21,16 +27,35 @@
     height: 60vh;
 }
 
-h1 {
+.about-me h1 {
     font-size: 2rem;
     color: #6666ff;
     font-weight: 600;
     padding-bottom: 1rem;
 }
 
-h4 {
+.about-me h4 {
     font-size: 1rem;
     color: #6666ff;
     font-weight: 400;
     line-height: 22px;
+}
+
+@media only screen and (max-width: 720px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .about span {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
 }
