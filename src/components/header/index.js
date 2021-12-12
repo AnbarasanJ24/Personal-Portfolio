@@ -4,13 +4,16 @@ import Web from "./web";
 import Mobile from "./mobile";
 import './header.css';
 import logo from '../../assets/AJ.gif';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
-
+    AOS.init();
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <section className="header">
+        <section className="header" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
             <div className="logo">
                 <img src={logo} alt="loading..." />
             </div>

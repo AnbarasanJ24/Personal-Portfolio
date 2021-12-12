@@ -6,6 +6,19 @@ const ProjectCard = ({ project }) => {
         <div className="project-card">
             <div className="project-info">
                 <label className="project-title" >{project.title}</label>
+                <div className="project-tags">
+                    {
+                        project.tags.map(tag => {
+                            return (
+                                <label >{tag}</label>
+                            )
+                        })
+                    }
+                </div>
+                <div className="project-about">
+                    {project.about}
+                </div>
+
                 <div className="project-source">
                     <div className="project-source-demo">
                         {
@@ -17,23 +30,11 @@ const ProjectCard = ({ project }) => {
                     <div className="project-source-github">
                         {
                             project.github && (
-                                <a href={project.github}>Github</a>
+                                <a target='_blank' href={project.github} rel="noreferrer">Github</a>
                             )
                         }
                     </div>
 
-                </div>
-                <div className="project-about">
-                    {project.about}
-                </div>
-                <div className="project-tags">
-                    {
-                        project.tags.map(tag => {
-                            return (
-                                <label >{tag}</label>
-                            )
-                        })
-                    }
                 </div>
             </div>
             {/* <div className="image-info">
