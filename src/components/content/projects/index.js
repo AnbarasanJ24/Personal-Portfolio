@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="project-details">
                 {
                     projectDetails.map(project => (
-                        <ProjectCard project={project} />
+                        <ProjectCard project={project} key={project.id} />
                     ))
                 }
             </div>

@@ -1,7 +1,7 @@
 .project-card {
     display: grid;
     grid-template-columns: 1fr;
-    height: 30vh;
+    height: 50vh;
     padding: 0.5rem;
     box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
 }
@@ -67,7 +67,7 @@
     }
 
     .project-card {
-        height: 35vh;
+        height: 60vh;
     }
 
 

@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
                     {
                         project.tags.map(tag => {
                             return (
-                                <label >{tag}</label>
+                                <label key={tag} >{tag}</label>
                             )
                         })
                     }

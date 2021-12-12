@@ -30,7 +30,7 @@ export const ProjectDetails = [
 
     },
     {
-        id: 2,
+        id: 4,
         title: "Theatre API ",
         about: "Supports better web security measures, file upload, email functionality and user friendly API documentation using postman",
         tags: ["Node JS", "Express JS", "Mongo DB", "Mongoose"],
@@ -41,7 +41,7 @@ export const ProjectDetails = [
 
     },
     {
-        id: 3,
+        id: 5,
         title: "Food Menus",
         about: "Created a food menu application with PWA support from scratch without using any framework.",
         tags: ["PWA", "Service Worker", "Caching"],
@@ -50,7 +50,7 @@ export const ProjectDetails = [
         image: require('../../assets/project/Project.svg').default
     },
     {
-        id: 3,
+        id: 6,
         title: "Security Forms",
         about: "Created a form controls and different security loop holes demo covers XSS (Cross Site Scripting), CSRF / XSRF / Session writing (Cross site request forgery), Content Security Policy(Secure JS and CSS), CSS Threat, CORS(Cross origin resource sharing)",
         tags: ["Web Security"],
@@ -59,7 +59,7 @@ export const ProjectDetails = [
         image: require('../../assets/project/Project.svg').default
     },
     {
-        id: 3,
+        id: 7,
         title: "Lapo",
         about: "Created a product landing page for laptop webiste",
         tags: ["Vanilla JS", "HTML", "CSS"],

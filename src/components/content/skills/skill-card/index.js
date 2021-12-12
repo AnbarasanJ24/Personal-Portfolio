@@ -11,7 +11,7 @@ const SkillCard = ({ list }) => {
             {
                 list.map(skill => {
                     return (
-                        <div className="skill-item" >
+                        <div className="skill-item" key={skill.name} >
                             {skill.icon}
                             <h6>{skill.name}</h6>
                         </div>

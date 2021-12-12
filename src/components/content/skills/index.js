@@ -14,7 +14,7 @@ const Skills = () => {
                 {
                     skills.map(skill => {
                         return (
-                            <div className="skill-list-container">
+                            <div className="skill-list-container" key={skill.type}>
                                 <h2>{skill.type}</h2>
                                 <SkillCard list={skill.list} />
                             </div>
