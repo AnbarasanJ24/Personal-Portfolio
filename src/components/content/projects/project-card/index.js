@@ -3,7 +3,8 @@ import './project-card.css';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="project-card">
+        <div className="project-card" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000"
+            data-aos-easing="linear">
             <div className="project-info">
                 <label className="project-title" >{project.title}</label>
                 <div className="project-tags">
@@ -23,7 +24,7 @@ const ProjectCard = ({ project }) => {
                     <div className="project-source-demo">
                         {
                             project.demo && (
-                                <a href={project.demo}>Demo</a>
+                                <a target='_blank' href={project.demo} rel="noreferrer">Demo</a>
                             )
                         }
                     </div>

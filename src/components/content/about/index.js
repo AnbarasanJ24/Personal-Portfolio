@@ -3,11 +3,15 @@ import React from "react";
 import './about.css';
 import profile from '../../../assets/coding.svg'
 import SocialContent from "../../common/social-contact";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    AOS.init();
     return (
         <div className="about">
-            <div className="about-me">
+            <div className="about-me" data-aos="fade-left" data-aos-delay="0" data-aos-duration="1500"
+                data-aos-easing="ease-in-out" >
                 <h1>Hello There, <span >I am Anbarasan </span>
                 </h1>
                 <h4>
@@ -19,7 +23,8 @@ const About = () => {
                     <a download href={require('../../../assets/Anbarasan-Front End Engineer-2.5YOE.pdf').default}>Download Resume</a>
                 </div>
             </div>
-            <div className="profile_image">
+            <div className="profile_image" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" >
                 <img className="vector" src={profile} alt="profile-image" />
             </div>
         </div>

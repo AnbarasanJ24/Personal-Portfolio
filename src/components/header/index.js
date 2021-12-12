@@ -12,8 +12,8 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <section className="header" data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom">
+        <section className="header" data-aos="fade-down" data-aos-delay="0" data-aos-duration="1000"
+            data-aos-easing="linear" >
             <div className="logo">
                 <img src={logo} alt="loading..." />
             </div>
