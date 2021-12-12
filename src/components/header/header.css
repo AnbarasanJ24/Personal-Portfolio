@@ -36,7 +36,7 @@
 
 /* Media Query */
 
-@media only screen and (max-width:720px) {
+/* @media only screen and (max-width:720px) {
     .mobile-menu {
         display: flex;
         margin-right: 1rem;
@@ -45,4 +45,4 @@
     .web-menu {
         display: none;
     }
-}
+} */
