@@ -10,7 +10,7 @@ const SocialContent = () => {
             {
                 data.map(icon => {
                     return (
-                        <a href={icon.link} key={icon.platForm}>
+                        <a target='_blank' href={icon.link} key={icon.platForm} rel="noreferrer">
                             <div className="social-icon">
                                 <img src={icon.icon} alt={icon.platForm} />
                             </div>
