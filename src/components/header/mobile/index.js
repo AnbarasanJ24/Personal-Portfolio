@@ -3,8 +3,8 @@ import React from "react";
 import close from '../../../assets/close.svg';
 import project from '../../../assets/project.svg';
 import skills from '../../../assets/skills.svg';
-import work from '../../../assets/work.svg';
-import contact from '../../../assets/contact.svg';
+// import work from '../../../assets/work.svg';
+// import contact from '../../../assets/contact.svg';
 import './mobile.css';
 
 const Mobile = ({ isOpen, setIsOpen }) => {
@@ -22,14 +22,14 @@ const Mobile = ({ isOpen, setIsOpen }) => {
                     <h4>Skills</h4>
                     <img src={skills} />
                 </a>
-                <a href="#work" className="mobile_option">
+                {/* <a href="#work" className="mobile_option">
                     <h4>Work</h4>
                     <img src={work} />
-                </a>
-                <a href="#contact" className="mobile_option">
+                </a> */}
+                {/* <a href="#contact" className="mobile_option">
                     <h4>Contact</h4>
                     <img src={contact} />
-                </a>
+                </a> */}
             </div>
         </div>
     )

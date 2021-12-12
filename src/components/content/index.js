@@ -3,6 +3,7 @@ import About from "./about";
 import './content.css';
 import Projects from "./projects";
 import Skills from "./skills";
+import Footer from '../footer';
 
 const Content = () => {
     return (
@@ -22,6 +23,8 @@ const Content = () => {
             {/* <section id="contact">
                 <Contact />
             </section> */}
+            <Footer />
+
         </main>
     )
 }

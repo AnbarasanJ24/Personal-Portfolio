@@ -15,7 +15,7 @@
 .skills-container {
     display: grid;
     grid-template-columns: 1fr;
-    height: 20vh;
+    height: auto;
 }
 
 .skills-container h2 {
@@ -33,5 +33,9 @@
     .skill-list {
         justify-content: start;
         margin-top: 20px;
+    }
+
+    .skills-container h2 {
+        font-size: 1rem;
     }
 }

@@ -36,23 +36,12 @@ const ProjectCard = ({ project }) => {
                     }
                 </div>
             </div>
-            <div className="image-info">
+            {/* <div className="image-info">
                 <img src={project.image} alt={project.title} />
-            </div>
+            </div> */}
         </div>
     )
 }
 
 export default ProjectCard;
 
-
-// {
-//     id: 2,
-//         title: "Project 2",
-//             about: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, recusandae saepe reprehenderit optio itaque nam perspiciatis ipsam quos velit. Qui ex harum sed aliquid magnam quod? Quo mollitia maiores nisi!",
-//                 tags: ["Test1", "Test2", "Test3", "Test4"],
-//                     demo: "www.example.com",
-//                         github: "www.example.com",
-//         // image: require('../../assets/project').default
-
-//     },

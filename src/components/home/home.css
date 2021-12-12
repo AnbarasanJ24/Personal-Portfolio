@@ -10,7 +10,6 @@ html {
 }
 
 #skills {
-    height: 60vh;
     margin-left: 35px;
 }
 
@@ -26,5 +25,9 @@ html {
 @media only screen and (max-width:512px) {
     .home {
         width: 100%;
+    }
+
+    #project {
+        margin-top: 5rem;
     }
 }

@@ -1,6 +1,6 @@
 .project-details {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
 }
 
@@ -9,4 +9,15 @@
     font-family: 'MonteCarlo', cursive;
     margin-bottom: 2rem;
     color: #525b61;
+}
+
+@media screen and (max-width:600px) {
+    .project-dettails-title {
+        font-size: 2rem;
+    }
+
+    .project-details {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
 }
